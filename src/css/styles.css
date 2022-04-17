@@ -54,7 +54,8 @@ section {
     width: 90%;
 }
 
-nav {
+nav,
+.page-footer {
     width: 100%;
     background-color: #0b0b0b;
     position: relative;
