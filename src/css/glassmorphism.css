@@ -1,0 +1,107 @@
+.container-00 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 50%;
+    /* background: #161616; */
+}
+
+.container-00 h2 {
+    position: relative;
+    width: 50%;
+    text-align: center;
+    z-index: 11;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    padding: 5px 8px;
+    font-size: 25px;
+    border-radius: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.05);
+
+}
+
+
+.container-00 .glassmorphic-card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 1;
+    width: 320px;
+    height: 500px;
+    padding: 40px 30px;
+    margin: 28px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+}
+
+.container-00 .glassmorphic-card:before {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    font-size: 10em;
+    background: rgba(255, 255, 255, 0.05);
+    pointer-events: none;
+}
+
+
+
+.container-00 .glassmorphic-card .contentBox {
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.container-00 .glassmorphic-card .contentBox:before {
+    content: 'DIGITAL';
+    position: absolute;
+    top: -50px;
+    left: -125px;
+    width: 100%;
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 2px;
+    transform: rotate(-90deg);
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.container-00 .glassmorphic-card .contentBox h3 {
+    font-size: 1.8em;
+    color: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.container-00 .glassmorphic-card .contentBox p {
+    font-size: 1em;
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 300;
+}
+
+.container-00 p {
+    z-index: 12;
+    margin: 20px auto 10px;
+    position: relative;
+    color: #fff;
+}
+
+.container-00 p span {
+    font-weight: 700;
+}
