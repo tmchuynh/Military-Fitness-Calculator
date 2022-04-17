@@ -170,4 +170,11 @@ nav .brand-logo {
     }
 }
 
+.form-input {
+    padding: 5rem;
+}
 
+.dropdown-content {
+    overflow-y: visible;
+    position: relative;
+}
