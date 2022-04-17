@@ -35,7 +35,7 @@
     align-items: center;
     flex-wrap: wrap;
     z-index: 1;
-    width: 320px;
+    width: 500px;
     height: 500px;
     padding: 40px 30px;
     margin: 28px;
@@ -60,20 +60,19 @@
     pointer-events: none;
 }
 
-
-
 .container-00 .glassmorphic-card .contentBox {
     position: relative;
     margin-top: 20px;
     text-align: center;
     transition: 0.5s;
+    display: block;
 }
 
 .container-00 .glassmorphic-card .contentBox:before {
-    content: 'DIGITAL';
+    content: 'RESULTS';
     position: absolute;
     top: -50px;
-    left: -125px;
+    left: -240px;
     width: 100%;
     font-size: 4em;
     text-transform: uppercase;
@@ -87,12 +86,36 @@
     font-size: 1.8em;
     color: rgba(0, 0, 0, 0.2);
     z-index: 1;
+    float: right;
+}
+
+.container-00 .glassmorphic-card .contentBox h5 {
+    color: rgba(0, 0, 0, 0.2);
+    float: right;
+    margin: 0;
+}
+
+.container-00 .glassmorphic-card .contentBox .performance {
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+.container-00 .glassmorphic-card .contentBox .performance h1 {
+    color: rgba(0, 0, 0, 0.2);
+    text-align: end;
+    margin: 0;
 }
 
 .container-00 .glassmorphic-card .contentBox p {
     font-size: 1em;
     color: rgba(0, 0, 0, 0.4);
     font-weight: 300;
+    float: right;
+    text-align: right;
+}
+
+.container-00 .glassmorphic-card .contentBox .results {
+    color: rgba(0, 0, 0, 0.4);
 }
 
 .container-00 p {
