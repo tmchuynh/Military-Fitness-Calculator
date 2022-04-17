@@ -71,8 +71,8 @@
 .container-00 .glassmorphic-card .contentBox:before {
     content: 'RESULTS';
     position: absolute;
-    top: -50px;
-    left: -240px;
+    top: 41px;
+    left: -202px;
     width: 100%;
     font-size: 4em;
     text-transform: uppercase;
