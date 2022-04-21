@@ -10,6 +10,7 @@ section {
     justify-content: center;
     align-content: center;
     align-items: center;
+    display: block;
 }
 
 .section-title {
